@@ -20,7 +20,7 @@ def dp(x):
 
 def main():
     N = 900
-    print("--Calculating 10^4!--")
+    print("--Calculating", N,"!--")
     start = time.time()
     x = naive(N)
     end = time.time()
